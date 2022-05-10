@@ -1,6 +1,7 @@
 {
   "name": "@pryv/dev-utils",
   "version": "1.0.0",
+  "private": true,
   "description": "Small shared utilities for development at Pryv",
   "keywords": [
     "Pryv"
