@@ -1,0 +1,28 @@
+{
+  "name": "@pryv/dev-utils",
+  "version": "1.0.0",
+  "description": "Small shared utilities for development at Pryv",
+  "keywords": [
+    "Pryv"
+  ],
+  "homepage": "https://github.com/pryv/dev-utils#readme",
+  "bugs": {
+    "url": "https://github.com/pryv/dev-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pryv/dev-utils.git"
+  },
+  "license": "BSD-3-Clause",
+  "author": "Pryv S.A. <info@pryv.com> (https://pryv.com)",
+  "bin": {
+    "components-run": "src/components-run.js"
+  },
+  "scripts": {
+    "test": "semistandard"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "semistandard": "^16.0.1"
+  }
+}
